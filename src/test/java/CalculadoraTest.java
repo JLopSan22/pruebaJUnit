@@ -10,7 +10,7 @@ class CalculadoraTest {
     @Test
     void suma() {
         System.out.println("Casos de prueba método sumar");
-        assertEquals(2, calculadora.suma(1,1));
+        assertEquals(3, calculadora.suma(1,1));
     }
 
     @Test
